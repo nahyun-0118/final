@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'neurimboGothicRegular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/neurimboGothicRegular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HakgyoansimChulseokbuTTF-L';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimChulseokbuTTF-L.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HakgyoansimChulseokbuTTF-B';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimChulseokbuTTF-B.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* background-color: #000; */
+    z-index: 10;
+    background: radial-gradient(
+        rgba(110,110,110,0.3),
+        rgba(0, 0, 0, 0.5)
+        );
+}
+.wrap{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+.logo{
+    height: 122px;
+    text-align: center;
+    padding-top: 60px;
+}
+.subcopy{
+   height: 50px;
+    padding-top: 8px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    font-family: "Noto Sans KR", sans-serif;
+    text-shadow: 3px 3px 13px black;
+}
+.subcopy2{
+    height: 61px;
+    padding-top: 480px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    font-family: "Noto Sans KR", sans-serif;
+    text-shadow: 3px 3px 13px black;
+}
+.bt00{
+    height: 50px;
+    padding-top: 30px;
+    text-align: center;}
+
+    /* 서브페이지 스타일 */
+   
+    
+    .b01{width: 100%;
+        height: 640px;background-image: url(img/img1.png);
+        background-repeat: no-repeat;
+        background-position: center;}
+    .b02{width: 100%;
+        height: 375px;background-image: url(img/img2.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .b03{width: 100%;
+        height: 1221px;
+        background-image: url(img/bg001.png);
+        background-repeat: no-repeat;
+        background-position: center;}
+    .st_01{
+        width: 230px;
+        height: 30px;
+        position:relative;
+        top: 55px;
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 55px;
+        font-family: 'HakgyoansimChulseokbuTTF-B';
+        font-weight: 700;
+        color: white;
+        text-shadow:  2px 2px 10px black;
+        }
+    .st_02{
+        width: 300px;
+        height: 160px;
+        position:relative;
+        top: 110px;
+        margin: 0 auto;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: 'HakgyoansimChulseokbuTTF-L';
+        font-weight: 400;
+        text-align: center;
+        color: white;
+        text-shadow:  2px 2px 10px black;
+    }
+    .t01{
+        width: 165px;
+        height: 24px;
+        position: relative;
+        left: 50%;
+        top: 40px;
+        transform: translateX(-50%);
+    }
+    .tt00{
+        position: absolute;
+        top: -20px;
+        left: 30px;
+        font-size: 18px;
+        line-height: 55px;
+        font-family: 'neurimboGothicRegular';
+        font-weight: normal;
+        color: white;
+    }
+    .tt01,.tt03{width: 122px;
+        height: 15px;
+        }
+    .tt02{width: 150px;
+          height: 20px;}
+    .t02{
+        width: 165px;
+        height: 24px;
+        position: relative;
+        left: 50%;
+        top: 340px;
+        transform: translateX(-50%);
+    }
+        .t03{
+            width: 165px;
+            height: 24px;
+            position: relative;
+            left: 50%;
+            top: 650px;
+            transform: translateX(-50%);
+        }
+
+    .c01{width: 233px;
+        height: 308px;
+        left: 43px;
+        margin-top: 42px;
+        position: absolute;}
+
+    .c02{width: 226px;
+        height: 316px;
+        left: 166px;
+        margin-top: 345px;
+        position: absolute;}
+
+        .c03{width: 215px;
+            height: 317px;
+            left: 43px;
+            margin-top: 662px;
+            position: absolute;}
+
+.txt01{
+    width: 220px;
+    height: 115px;
+    margin-top: 75px;
+    margin-left: 155px;
+    color: white;
+    font-family: 'neurimboGothicRegular';
+    font-weight: normal;
+    line-height: 23px;
+    font-size: 30px;
+    position:absolute;
+    text-shadow:  1px 1px 10px black;
+
+}
+.txt000{
+    color: white;
+    font-family: 'HakgyoansimChulseokbuTTF-L';
+    font-weight: 700;
+    line-height: 14px;
+    font-size: 11px;
+    text-shadow:  2px 2px 10px black;
+}
+.txt001,.txt002{
+    position:absolute;
+}
+.txt001{
+    width: 220px;
+    height: 115px;
+    margin-top: 255px;
+    margin-left: 197px;
+}
+    .txt02{
+        width: 200px;
+        height: 70px;
+        margin-top: 410px;
+        margin-left: 45px;
+        color: white;
+        font-family: 'neurimboGothicRegular';
+        font-weight: normal;
+        line-height: 23px;
+        font-size: 30px;
+        position:absolute;
+        text-shadow:  1px 1px 10px black;
+        text-align: right;
+    }
+
+    .txt002{
+        width: 130px;
+        height: 55px;
+        margin-top: 580px;
+        margin-left: 55px;
+        }
+
+    .txt03{
+        width: 250px;
+        height: 90px;
+        margin-top: 725px;
+        margin-left: 180px;
+        color: white;
+        font-family: 'neurimboGothicRegular';
+        font-weight: normal;
+        line-height: 24px;
+        font-size: 30px;
+        position:absolute;
+        text-shadow:  1px 1px 10px black;
+    }
+
+    .txt003{
+        width: 180px;
+        height: 55px;
+        margin-top: 915px;
+        margin-left: 235px;
+        position:relative;
+    }
+
+    .stxt{
+        width: 300px;
+        height: 35px;
+        margin: 0 auto;
+        margin-top: 55px;
+        color: white;
+        font-family: "Noto Sans KR", serif;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.4em;
+        font-size: 14px;
+        text-align: center;
+        position: relative;
+        text-shadow:  2px 2px 10px black;
+    }
+
+    .t04{
+        width: 362px;
+        height: 27px;
+        position: absolute;
+        left: 50%;
+        margin-top: 40px;
+        transform: translateX(-50%);
+    }
+    .tt04{width: 250px;
+        height: 15px;
+        position: absolute;
+        top: -2px;
+        left: 50px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-family: 'neurimboGothicRegular';
+        font-weight: normal;
+        text-align: center;
+        color: white;}
+
+    footer{width: 100%;
+    height: 58px;
+background-color: #2C395F;}
+    footer > img{padding-left: 84px;padding-top: 10px;position: absolute;}
+    .f00{
+    font-family: 'GmarketSansMedium';
+    font-weight: normal;
+    width: 190px;
+    color: white;
+    padding-left: 171px;
+    }
+    .f01{font-size: 8px;
+    position: relative;
+    padding-top: 5px;}
+    .f02{font-size: 7px;}
